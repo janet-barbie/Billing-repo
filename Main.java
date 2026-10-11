@@ -33,6 +33,17 @@ public class Main {
                         System.out.println("enter customer units");
                         units=input.nextFloat();
                         writer.write("units: "+units+"\n");
+                        if(units<500){
+                            amount = 100;
+ 
+                         }else if(units<1000){
+                             amount = 150;
+                         }else if(units<1500){
+                             amount = 200;
+ 
+                         }else{
+                             amount = 250;
+                         }
                         writer.close();
                         System.out.println("File has been written");
 
