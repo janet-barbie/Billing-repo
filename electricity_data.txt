@@ -12,3 +12,9 @@ name: juju
 units: 45.0
 name: juju
 units: 200.0
+name: kiki
+registration_number: 12345
+units: 1000.0
+name: fionah
+registration_number: 23456
+units: 1000.0

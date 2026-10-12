@@ -30,3 +30,12 @@ name: fifi
 units: 1200.0
 name: koko
 units: 1200.0
+name: mugisha
+registration_number: 123456789
+units: 1000.0
+name: rodri
+registration_number: 134568
+units: 1000.0
+name: fionah
+registration_number: 456789
+units: 250.0
