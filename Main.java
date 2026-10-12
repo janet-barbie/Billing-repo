@@ -52,6 +52,7 @@ public class Main {
                         total_amount +=additional_charges;
 
                     }
+                    // print info message
                     System.out.println("final"+total_amount);
                     System.out.println("the Registration number is "+ registration_number);
                     System.out.println("individual charges is: "+ service_charge);
@@ -88,22 +89,19 @@ public class Main {
                         registration_number = input.nextInt();
                         System.out.println("enter customer units");
                         units=input.nextFloat();
+                        //validation
                         if(units<=0){
                             System.out.println("error:incorrect units");
                             writer.close();
-                            return;
-                            
+                            return;             
                         } 
                         if(units<500){
                             amount = 100*units;
                          }else if(units<1000){
-                            // amount = 150*units;
                             amount=(500*100)+((units-500)*150);
                          }else if(units<1500){
-                            // amount = 200*units;
                             amount=(500*100)+(500*150)+((units-1000)*200);
-                         }else{
-                            // amount = 250*units;  
+                         }else{ 
                             amount=(500*100)+(500*150)+(500*200)+((units-1500)*250);
                          }
                          total_amount= (service_charge+amount);
@@ -114,6 +112,7 @@ public class Main {
                             additional_charges= (0.20f* amount);
                             total_amount +=additional_charges;
                         }
+                        // print info message
                         System.out.println("the Registration number is "+ registration_number);
                         System.out.println("individual charges is: "+ service_charge);
                         System.out.println("units consumed: "+units);
