@@ -1,20 +1,40 @@
-name: david
-units: 200.0
-name: gigi
-units: 100.0
-name: ariana
-units: 400.0
-name: gigi
-units: 100.0
 name: fifi
-units: 300.0
-name: juju
-units: 45.0
-name: juju
-units: 200.0
-name: kiki
-registration_number: 12345
-units: 1000.0
-name: fionah
 registration_number: 23456
-units: 1000.0
+units: 100.0
+service charge: 100.0
+amount: 8000.0
+additional charges: 0.0
+total amount: 8100.0
+------------------------------
+name: soso
+registration_number: 23456
+units: 23.0
+service charge: 100.0
+amount: 1380.0
+additional charges: 0.0
+total amount: 1480.0
+------------------------------
+name: fifi
+registration_number: 12345
+units: 0.0
+service charge: 100.0
+amount: 0.0
+additional charges: 0.0
+total amount: 100.0
+------------------------------
+name: dudu
+registration_number: 12345
+units: 1500.0
+service charge: 100.0
+amount: 180000.0
+additional charges: 0.0
+total amount: 180100.0
+------------------------------
+name: soso
+registration_number: 12345
+units: 500.0
+service charge: 100.0
+amount: 47000.0
+additional charges: 7050.0005
+total amount: 54150.0
+------------------------------
